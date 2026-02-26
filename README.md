@@ -1,16 +1,78 @@
-# React + Vite
+# Stellar Token Wallet (Testnet)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, modern decentralized application (dApp) built on the Stellar network. This lightweight application allows users to connect their Freighter wallet, check their native XLM testnet balance, and seamlessly send XLM to any valid address.
 
-Currently, two official plugins are available:
+## 📸 Screenshots
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> **Note:** Drop your screenshots below to complete the documentation!
 
-## React Compiler
+### Wallet Connection
+<!-- ADD SCREENSHOT HERE -->
+*(Replace this with a screenshot of your app's home or connection screen)*
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Dashboard & Transaction
+<!-- ADD SCREENSHOT HERE -->
+*(Replace this with a screenshot of the wallet dashboard with balance and the send form)*
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Freighter Interface:** Seamlessly connect and authenticate using the official Freighter browser extension.
+- **Live Account Balance:** Instantly load and view your testnet XLM balance directly from the Horizon network.
+- **Send Transactions:** Send XLM with real-time feedback, error handling, and direct links to the Stellar Expert Explorer.
+- **Modern UI Design:** A beautiful, responsive, glassmorphic design system.
+- **Testnet Ready:** Pre-configured and fully functional on the Stellar Testnet.
+
+## 🛠️ Built With
+
+- **[React 19](https://react.dev/)** - UI Library
+- **[Vite](https://vitejs.dev/)** - Next Generation Frontend Tooling
+- **[@stellar/freighter-api](https://docs.freighter.app/)** - Wallet Integration and Signing
+- **[@stellar/stellar-sdk](https://developers.stellar.org/docs)** - Stellar Network Interaction
+
+## 🚀 Getting Started
+
+Follow these steps to set up the project locally on your machine.
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) installed on your machine.
+- [Freighter Wallet](https://www.freighter.app/) extension installed in your web browser.
+- Make sure your Freighter wallet is explicitly set to use the **Testnet** network.
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone <your-repository-url>
+   cd stellar-level1
+   ```
+
+2. **Install dependencies:**
+   Using npm:
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Launch the dApp:**
+   Open your browser and navigate to `http://localhost:5173`.
+
+## 🧪 How to Use
+
+1. **Connect:** Open the application and click **Connect Freighter**. Approve the connection request in the Freighter popup.
+2. **Fund:** If your Freighter wallet doesn't have any funds, use the [Stellar Laboratory Friendbot](https://laboratory.stellar.org/#account-creator?network=test) to fund your testnet account for free.
+3. **Draft Transaction:** Enter a recipient testnet address (must start with a `G...`) and an XLM amount.
+4. **Send & Sign:** Click **Send XLM →** and approve the transaction signature request in the Freighter popup.
+5. **Verify:** Wait for the success message and click the provided link to view your transaction live on the Stellar Expert Explorer.
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).

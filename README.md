@@ -7,12 +7,12 @@ A sleek, modern decentralized application (dApp) built on the Stellar network. T
 > **Note:** Drop your screenshots below to complete the documentation!
 
 ### Wallet Connection
-<!-- ADD SCREENSHOT HERE -->
-*(Replace this with a screenshot of your app's home or connection screen)*
+<img width="964" height="616" alt="Screenshot 2026-02-23 160052" src="https://github.com/user-attachments/assets/0f4dbdc6-f5ed-4746-9764-890c0d4384f1" />
+
 
 ### Dashboard & Transaction
-<!-- ADD SCREENSHOT HERE -->
-*(Replace this with a screenshot of the wallet dashboard with balance and the send form)*
+<img width="867" height="993" alt="Screenshot 2026-02-23 160225" src="https://github.com/user-attachments/assets/df03d1ce-59a1-474d-9af7-99eaffda6c67" />
+
 
 ## ✨ Features
 
